@@ -1,0 +1,11 @@
+body{
+  background-image: url("bpaper.jpg");
+  color: white;
+}
+
+
+.INGlist{
+  list-style-type: "";
+  /* align-items: flex-start; */
+  margin-left: 0%;
+}

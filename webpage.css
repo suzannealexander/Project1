@@ -3,9 +3,7 @@
 	height:715px; 
 	overflow:hidden; 
 	position:relative;
-	margin:0px;
-	margin-top:-10px;
-	margin-left:-10px;}
+	margin-left:0px;}
 .fling-minislide img{ 
 	position:absolute;
 	animation:fling-minislide 20s infinite;
@@ -24,10 +22,8 @@
   padding: 16px;
   font-size: 16px;
   border: none;
-  margin-top:-15px;
   cursor: pointer;
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -52,3 +48,6 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.logo{
+	text-align:center;
+}	

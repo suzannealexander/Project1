@@ -1,0 +1,30 @@
+This part needs to go into the webpage html file below the dropdown menu (the hovering doesn't work if
+it's ontop of the slide code and the dropdown menu code)
+
+<div class = arrowleft>
+  &#10094;
+</div>
+<div class = arrowright>
+  &#10095;
+</div>
+
+
+This part needs to go into the css file
+
+.arrowleft, .arrowright{
+  font-weight: bold;
+  font-size: 50pt;
+  position: absolute;
+  top: 45%;
+  transition: 0.6s ease;
+  color: white;
+	padding: 10px;
+}
+
+.arrowright{
+	  right: 0;
+}
+
+.arrowleft:hover, .arrowright:hover{
+	transform: scale(1.5);
+}

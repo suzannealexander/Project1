@@ -60,7 +60,7 @@
   position: absolute;
   transition: all .5s ease;
   top: 100px;
-  width: 400%;
+  width: 100%;
 }
 
 .menu li:hover ul {

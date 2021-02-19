@@ -8,7 +8,8 @@
   top:0;
   right: 0;
   bottom: 0;
-  position: absolute;}
+  position: absolute;
+}
 
 .fling-minislide img{ 
 	position:absolute;
@@ -73,6 +74,14 @@
   display: block;
   padding: 5px 20px;
 }
+
+#logopic{
+  height:100px;
+  width:200px;
+  display: block;
+  margin-left: 270%
+}
+
 
 .arrowleft, .arrowright{
   font-weight: bold;

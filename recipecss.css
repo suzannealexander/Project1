@@ -9,3 +9,52 @@ body{
   /* align-items: flex-start; */
   margin-left: 0%;
 }
+
+#menuicon{
+  left: 0;
+  top: 0;
+  margin: 0;
+  position: absolute;
+  width: 100px;
+}
+
+#one{
+  list-style-type: none;
+}
+
+.menu {
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.menu > li > a {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.menu ul {
+  background: #484848;
+  height: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  transition: all .5s ease;
+  top: 100px;
+  width: 400%;
+}
+
+.menu li:hover ul {
+  height: 200px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu ul a {
+  color: lightgrey;
+  display: block;
+  padding: 5px 20px;
+}

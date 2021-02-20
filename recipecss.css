@@ -5,6 +5,9 @@ body{
   /* font-family: sans-serif; */
 }
 
+h1{
+  padding-top: 8%;
+}
 
 #menuicon{
   left: 0;
@@ -59,7 +62,10 @@ body{
   height:100px;
   width:200px;
   display: block;
-  margin-left: 270%
+  background-color: lightgrey;
+  border-radius: 25px 55px 35px;
+  margin-top: 5%;
+  margin-left: 250%
 }
 
 .INGlist{

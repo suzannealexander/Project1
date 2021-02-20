@@ -78,7 +78,10 @@
   height:100px;
   width:200px;
   display: block;
-  margin-left: 270%
+  background-color: lightgrey;
+  border-radius: 25px 55px 35px;
+  margin-top: 5%;
+  margin-left: 250%;
 }
 
 

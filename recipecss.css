@@ -1,60 +1,106 @@
+  
 body{
-  background-image: url("bpaper.jpg");
-  color: white;
+  background-image: url("bc1.jpg");
+  color: ivory;
+  font-size: 18px;
+  /* font-family: sans-serif; */
 }
 
 
 .INGlist{
+  margin-top: 15%;
+  margin-left: -25%;
+  list-style-type: "-";
+
+}
+
+.Sum{
+  font-style: italic;
+  font-size: 25px;
+
+}
+
+.steps{
   list-style-type: "";
-  /* align-items: flex-start; */
   margin-left: 0%;
 }
 
-#menuicon{
-  left: 0;
-  top: 0;
-  margin: 0;
-  position: absolute;
-  width: 100px;
+.HINGlist{
+  margin-top: 10%;
+  float:center;
+  list-style-type: "-";
+
+}
+.IINGlist{
+  margin-top: 10%;
+  float:center;
+  list-style-type: "-";
+
 }
 
-#one{
-  list-style-type: none;
+.BImage{
+  width: 350px;
+  height: auto;
+  border-radius:10px;
+  margin-left: -30%;
+
+  /* float: center; */
 }
 
-.menu {
-  display: block;
-  margin: 0;
-  position: absolute;
-  top: 0px;
-  left: 0px;
+.PrepInfo{
+  margin-left: 40%;
+  margin-top: -25%;
+/* float:right; */
+
+}
+.TacoPrepInfo{
+  margin-left: 40%;
+  margin-top: -20%;
+/* float:right; */
+
 }
 
-.menu > li > a {
-  display: block;
-  margin: 0 auto;
-  text-decoration: none;
+.HummusPrepInfo{
+  margin-left: 40%;
+  margin-top: -25%;
+/* float:right; */
+
 }
 
-.menu ul {
-  background: #484848;
-  height: 0;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  transition: all .5s ease;
-  top: 100px;
-  width: 400%;
+.PuriPrepInfo{
+  margin-left: 40%;
+  margin-top: -20%;
+/* float:right; */
+
+}
+.Proced{
+  float:center;
+  /* margin-left: -30%; */
 }
 
-.menu li:hover ul {
-  height: 200px;
-  opacity: 1;
-  transform: translateY(0);
+.anime{
+  margin-left: 43%;
+  margin-top: -63%;
+
 }
 
-.menu ul a {
-  color: lightgrey;
-  display: block;
-  padding: 5px 20px;
+.bTacos{
+  margin-left: 47%;
+  margin-top: -90%;
+  width: 350px;
+  height: auto;
+  border-radius:10px;
+
+}
+
+/* .Ipuri{
+  margin-left: 47%;
+  margin-top: -90%;
+  width: 1px;
+  height: auto;
+  border-radius:10px;
+} */
+
+.links{
+ color: Gray;
 }

@@ -78,7 +78,10 @@ h1{
 .Sum{
   font-style: italic;
   font-size: 25px;
+}
 
+#Team{
+  padding-top: 9%;
 }
 
 .steps{
